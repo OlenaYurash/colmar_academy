@@ -1,0 +1,246 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: rgb(75, 75, 75);
+  font-weight: 400;
+}
+
+/*Header*/
+
+ul {
+list-style-type: none;
+overflow: hidden;   
+}
+
+
+li {
+display: inline;
+float: right;  
+
+}
+
+li a {
+display: block;
+padding: 8px;
+text-decoration: none;
+color: rgb(75, 75, 75);
+}
+
+h1 {
+float: left;
+height: 32px;
+margin: auto;
+font-size: 23px;
+font-style: normal;
+padding-top: 3.4px;
+}
+
+span {
+font-weight: 150;
+color: rgb(189, 189, 189);
+}
+
+.navbar {
+height: 64px;
+margin: 0 24px;   
+}
+
+#logo {
+float: left;
+}
+
+/*Main*/
+
+.banner {
+display: flex;
+background-color: rgb(221, 221, 221);
+padding-left: 24px;
+padding-bottom: 32px;
+padding-top: 32px;
+}
+
+.banner img {
+width: 60%;
+height: auto;
+}
+
+.side {
+margin-left: 24px;
+padding-top: 90px;
+}
+
+h2 {
+
+font-size: 45px;
+font-weight: 900;
+margin-left: 45px;
+}
+
+p {
+font-size: 35px;
+margin-left: 45px;
+}
+
+button {
+height: 60px;
+width: 85%;
+background-color: rgb(90, 89, 89);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 25px;
+padding: 8px 0;
+margin-left: 45px;
+}
+
+/*Information*/
+
+#practicing {
+  display: flex;
+  padding-left: 24px;
+  padding-top: 32px;
+  margin-bottom: 32px;
+}
+
+#infoMain {
+  width: 60%;
+  height: auto;
+  margin-right: 32px;
+}  
+
+#infoMainTitle {
+  margin: 0;
+}  
+
+#infoMain h4 {
+  padding-top: 20px;
+}  
+
+.infoMain, #practicingImage {
+width: 100%;
+height: auto;
+}
+
+#practicingImage {
+margin-bottom: 32px;
+}
+
+#practicingImageP {
+margin: 24px 0;
+}
+
+#currentEventsContainer {
+width: 40%;
+height: auto;
+display: inline-block;
+}
+
+.currentEvent {
+width: 100%;
+height: auto;
+display: flex;
+}
+
+.eventImages {
+width: 35%;
+height: auto;
+padding-left: 16px;
+padding-bottom: 16px;
+margin-left: 24px;
+}
+
+.eventTexts {
+width: 65%;
+height: auto;
+margin-left: 16px;
+padding-top: 45px;
+}
+
+.eventTextP {
+font-size: 25px; 
+margin: 0;
+padding: 8px 0;
+}
+
+#currentEventThree {
+background-color: rgb(221, 221, 221);
+padding: 16px 16px 16px 0;
+}
+
+.eventName {
+  font-size: 35px;
+  margin: 0;
+}
+
+.eventLink {
+  font-size: 25px;
+  color: rgb(0, 152, 199);
+  text-decoration: none;
+}
+
+#currentEventTwo  {
+  padding: 16px 16px 16px 0;
+}
+
+/*Divisions*/
+
+#divisions  {
+  background-color: rgb(221, 221, 221);
+  padding: 32px 72px;
+}
+
+#startLearning {
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.divisions  {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.course  {
+  background-color: white;
+  margin: 32px;
+  width: 100%;
+
+}
+
+.courseImg  {
+  height: auto;
+  width: 100%;
+
+  
+}
+
+.courseText {
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+.courseText h3 {
+font-size: 35px;
+margin: 0;
+}
+
+.courseText h4 {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 100;
+  color: rgb(158, 158, 158);
+  }
+
+  .courseText p {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 8px;
+    font-weight: 100;
+    padding-bottom: 24px;
+    color:  rgb(158, 158, 158);
+    }
