@@ -223,8 +223,8 @@ padding: 16px 16px 16px 0;
 }
 
 .courseText h3 {
-font-size: 35px;
-margin: 0;
+  font-size: 35px;
+  margin: 0;
 }
 
 .courseText h4 {
@@ -236,11 +236,144 @@ margin: 0;
   color: rgb(158, 158, 158);
   }
 
-  .courseText p {
-    font-size: 20px;
-    margin: 0;
-    padding-top: 8px;
-    font-weight: 100;
-    padding-bottom: 24px;
-    color:  rgb(158, 158, 158);
-    }
+.courseText p {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 8px;
+  font-weight: 100;
+  padding-bottom: 24px;
+  color:  rgb(158, 158, 158);
+  }
+
+/*Thesis*/
+
+.thesis {
+
+  padding-left: 24px;
+  padding-top: 32px;
+  margin-bottom: 32px;
+ 
+  }
+
+#thesisExhibit {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 32px;
+  }
+
+#thesis-flex {
+  display: flex;
+  
+  }
+
+#urban60 {
+  width: 60%;
+  height: auto;
+  margin-right: 24px;
+
+  }
+
+#thesisVideo {
+  width: 100%;
+  height: auto;
+  
+  }
+
+#urban40 {
+ width: 40%;
+ height: auto;
+ display: inline-block;
+ }
+
+#urbanCurrent1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: rgb(221, 221, 221);
+  padding: 16px;
+  }
+
+#urbanCurrent2 {
+ width: 100%;
+ height: auto;
+ display: flex;
+ padding: 16px;
+ }
+
+#thesisTitle {
+margin: 0;
+padding-top: 24px;
+padding-bottom: 8px;
+font-size: 30px;
+}
+
+#urban60 p {
+  font-size: 20px;
+  margin-left: 0;
+  margin-bottom: 0;
+  }
+
+.thesisImg {
+ width: 35%;
+ height: auto;
+ }
+
+.thesisText {
+width: 65%;
+height: auto;
+padding-top: 45px;
+padding-left: 16px;
+ }
+
+#urban40 p {
+ font-size: 20px; 
+ margin-left: 0;
+  }
+
+
+  /*Footer*/
+
+#copyright {
+  margin-top: 16px;
+  border-top: 1px solid rgb(221, 221, 221);
+  }
+
+#rights {
+  font-size: 20px; 
+  margin-top: 16px;
+  display: inline-block;
+  }
+
+.copyrightLink {
+  float: right;
+  font-size: 20px;
+  margin-top: 16px;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  padding-right: 24px;
+  }
+
+
+    
+
+
+
+
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
